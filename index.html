@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Biografi singkat Nabi Muhammad SAW, nabi dan rasul terakhir dalam ajaran Islam.">
+  <meta name="author" content="Nama Siswa">
+  <title>Biografi Muhammad SAW</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Biografi Tokoh Dunia: Muhammad SAW</h1>
+    <hr>
+    <nav>
+      <strong>Daftar Isi:</strong>
+      <a href="#intro">Pengenalan</a> |
+      <a href="#biodata">Biodata Singkat</a> |
+      <a href="#peristiwa">Peristiwa Penting</a> |
+      <a href="#sumber">Sumber</a> |
+      <a href="#kalkulator">Kalkulator</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="counter-section">
+      <button id="readBtn">Tandai Sedang Membaca</button>
+      <p>Halaman ini telah mulai dibaca sebanyak <strong id="readCount">0</strong> kali.</p>
+    </section>
+
+    <section id="intro">
+      <h2>Pengenalan</h2>
+      <img src="https://placehold.co/400x200?text=Kaligrafi+Muhammad" alt="Ilustrasi Kaligrafi Nama Muhammad"
+        title="Kaligrafi Nama Nabi Muhammad" width="400">
+
+      <p>
+        <strong>Muhammad</strong> (lahir di Mekkah, 570 M – meninggal di Madinah, 8 Juni 632 M) adalah seorang nabi dan
+        rasul terakhir bagi umat Muslim. Beliau memulai penyebaran ajaran Islam untuk seluruh umat manusia dan
+        mewariskan pemerintahan tunggal Islam. Muhammad menyatukan Jazirah Arab di bawah satu naungan negara dengan
+        Al-Qur'an sebagai dasar utamanya.
+      </p>
+      
+      <p id="moreText" style="display: none;">
+        <em>Teks Tambahan:</em> Beliau juga dikenal dengan gelar <strong>Al-Amin</strong> (yang dapat dipercaya) jauh sebelum masa kenabiannya karena kejujurannya dalam berdagang dan berinteraksi dengan masyarakat Mekkah.
+      </p>
+      <button id="readMoreBtn">Baca Selengkapnya</button>
+
+      <blockquote>
+        "Muhammad bukan hanya seorang pemimpin agama, tetapi juga pemimpin negara, militer, dan keluarga yang menjadi
+        teladan (uswatun hasanah) bagi umatnya."
+      </blockquote>
+    </section>
+
+    <section id="biodata">
+      <h2>Biodata Singkat</h2>
+      <table border="1">
+        <caption>Informasi Pribadi Muhammad SAW</caption>
+        <thead>
+          <tr>
+            <th width="30%">Kategori</th>
+            <th>Keterangan</th>
+          </tr>
+        </thead>
+        <tbody id="biodataBody">
+          <tr>
+            <td><strong>Kelahiran</strong></td>
+            <td>Sekitar tahun 570 M (Tahun Gajah) di Mekkah</td>
+          </tr>
+          <tr>
+            <td><strong>Wafat</strong></td>
+            <td>8 Juni 632 M (Usia 62-63 tahun) di Madinah</td>
+          </tr>
+          <tr>
+            <td><strong>Pasangan</strong></td>
+            <td>Khadijah binti Khuwailid, Aisyah binti Abu Bakar, dan lainnya</td>
+          </tr>
+          <tr>
+            <td><strong>Dikenal Sebagai</strong></td>
+            <td>Nabi dan Rasul Terakhir (Khatamul Anbiya)</td>
+          </tr>
+        </tbody>
+      </table>
+      <button id="addInfoBtn">Tambah Info</button>
+    </section>
+
+    <section id="peristiwa">
+      <h2>4 Fase Penting dalam Hidup</h2>
+      <p>Berikut adalah titik balik sejarah dalam kehidupan beliau:</p>
+
+      <ol>
+        <li>
+          <strong>Wahyu Pertama (610 M):</strong>
+          <br>
+          Menerima wahyu pertama di Gua Hira pada usia 40 tahun. Malaikat Jibril menyampaikan surat Al-'Alaq ayat 1-5.
+          Ini menandai awal masa kenabian.
+        </li>
+        <li>
+          <strong>Hijrah (622 M):</strong>
+          <br>
+          Perpindahan Muhammad dan pengikutnya dari Mekkah ke Madinah (Yatsrib). Peristiwa ini menjadi awal penanggalan
+          Kalender Hijriah.
+        </li>
+        <li>
+          <strong>Fathu Makkah (629/630 M):</strong>
+          <br>
+          Pembebasan kota Mekkah secara damai. Muhammad membawa 10.000 pasukan Muslim dan berhasil menguasai Mekkah
+          tanpa pertumpahan darah berarti.
+        </li>
+        <li>
+          <strong>Haji Wada & Wafat (632 M):</strong>
+          <br>
+          Melakukan ibadah haji perpisahan (Haji Wada) dan menyampaikan khotbah terakhirnya. Beliau wafat beberapa bulan
+          setelahnya di Madinah karena sakit.
+        </li>
+      </ol>
+    </section>
+
+    <section id="sumber">
+      <h2>Sumber Referensi</h2>
+      <p>Data diambil dari halaman Wikipedia bahasa Indonesia:</p>
+      <ul>
+        <li><a href="https://id.wikipedia.org/wiki/Muhammad" target="_blank">Wikipedia: Muhammad</a></li>
+        <li><a href="https://id.wikipedia.org/wiki/Kematian_Muhammad" target="_blank">Wikipedia: Kematian Muhammad</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="kalkulator">
+      <h2>Kalkulator Sederhana</h2>
+      <div class="calc-container">
+        <input type="number" id="angka1" placeholder="Masukkan Angka 1">
+        <input type="number" id="angka2" placeholder="Masukkan Angka 2">
+        <div class="calc-buttons">
+          <button id="btnTambah">Tambah (+)</button>
+          <button id="btnKurang">Kurang (-)</button>
+          <button id="btnKali">Kali (x)</button>
+          <button id="btnBagi">Bagi (/)</button>
+        </div>
+        <p class="calc-result">Hasil: <strong id="hasilKalkulator">0</strong></p>
+      </div>
+    </section>
+
+    <br><br>
+    <a href="#">&uarr; Kembali ke Atas</a>
+  </main>
+
+  <footer>
+    <hr>
+    <p><i>Dibuat untuk tugas latihan HTML Kelas Koding Prisma.</i></p>
+    <p>&copy; 2024 Jono. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
